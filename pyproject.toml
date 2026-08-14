@@ -1,0 +1,28 @@
+[project]
+name = "football-insight"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Jia Chen", email = "jiabinc0602@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.1",
+    "notebook>=7.6.2",
+    "opencv-python>=5.0.0.93",
+    "polars>=1.43.2",
+    "pyarrow>=25.0.1",
+    "soccernet>=0.1.62",
+    "torch>=2.13.0",
+    "torchvision>=0.28.0",
+    "ultralytics>=8.4.118",
+]
+
+[project.scripts]
+football-insight = "football_insight:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"

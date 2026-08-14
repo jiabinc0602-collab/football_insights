@@ -1,0 +1,62 @@
+# Byte-compiled / optimized / build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+wheels/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Jupyter Notebooks & Colab
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Model weights & Checkpoints
+*.pt
+*.pth
+*.onnx
+*.weights
+*.engine
+*.tflite
+weights/
+checkpoints/
+models/*.pt
+models/*.pth
+
+# Computer Vision / ML datasets & processed outputs
+data/
+datasets/
+runs/
+runs/**
+output/
+outputs/
+*.mp4
+*.avi
+*.mkv
+*.mov
+*.jpg
+*.jpeg
+*.png
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS artifacts
+.DS_Store
+Thumbs.db
