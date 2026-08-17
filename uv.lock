@@ -573,6 +573,11 @@ dependencies = [
     { name = "ultralytics" },
 ]
 
+[package.dev-dependencies]
+dev = [
+    { name = "jupyter" },
+]
+
 [package.metadata]
 requires-dist = [
     { name = "jupyter", specifier = ">=1.1.1" },
@@ -586,6 +591,9 @@ requires-dist = [
     { name = "torchvision", specifier = ">=0.28.0" },
     { name = "ultralytics", specifier = ">=8.4.118" },
 ]
+
+[package.metadata.requires-dev]
+dev = [{ name = "jupyter", specifier = ">=1.1.1" }]
 
 [[package]]
 name = "fqdn"

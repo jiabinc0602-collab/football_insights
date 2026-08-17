@@ -60,3 +60,5 @@ outputs/
 # OS artifacts
 .DS_Store
 Thumbs.db
+
+notebooks/path/*

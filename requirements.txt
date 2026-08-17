@@ -26,7 +26,7 @@ executing==2.2.1
 fastjsonschema==2.22.1
 filelock==3.32.2
 fonttools==4.63.0
--e file:///home/jia/Projects/football_insight
+-e .
 fqdn==1.5.1
 fsspec==2026.7.0
 google-measurement-protocol==1.1.0
